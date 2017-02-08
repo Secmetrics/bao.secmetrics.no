@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+
+url: https://developers.baosec.com   # with the https protocol
+enforce_ssl: developers.baosec.com   # without any protocol
