@@ -5,7 +5,7 @@ title: BAO - Better Authentication Online
 description: BAO API documentation.
 url: https://developers.baosec.com   # with the https protocol
 enforce_ssl: developers.baosec.com   # without any protocol
-google_analytics_key:
+google_analytics_key: UA-92808648-1
 permalink: pretty
 
 collections:
