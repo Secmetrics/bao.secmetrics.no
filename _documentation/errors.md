@@ -1,6 +1,6 @@
 ---
 title: Errors
-position: 3
+position: 4
 ---
 
 | Code | Name                  | Description                          |
@@ -17,9 +17,7 @@ All response will return JSON as the following example formats:
   "code": 401,
   "message": "Session expired"
 }
-~~~
 
-~~~ json
 {
   "code": 404,
   "message": "Return URL not found"

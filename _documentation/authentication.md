@@ -1,6 +1,6 @@
 ---
 title: Authentication
-position: 2
+position: 3
 right_code: |
   ~~~ json
   "Authorization": "fido-auth API_KEY"

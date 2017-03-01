@@ -21,8 +21,3 @@ Something may not happen if you try and do this.
 
 Something bad will happen if you do this.
 {: .error }
-
-## Introduction ##
-
-![BAO Component](/images/bao-components.png)
-{: .img-responsive }
