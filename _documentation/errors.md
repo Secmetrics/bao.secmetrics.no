@@ -3,18 +3,25 @@ title: Errors
 position: 3
 ---
 
-| Code | Name        | Description                      |
-|------|-------------|----------------------------------|
-| 200  | OK          | Success                          |
-| 201  | Created     | Creation Successful              |
-| 400  | Bad Request | We could not process that action |
-| 403  | Forbidden   | We couldn't authenticate you     |
+| Code | Name                  | Description                          |
+|------|-----------------------|--------------------------------------|
+| 400  | Bad Request           | We couldn't process the request      |
+| 401  | Unauthorized          | We couldn’t authenticate the request |
+| 404  | Not Found             | We couldn’t find the resource        |
+| 500  | Internal Server Error | A server error occurred              |
 
-All errors will return JSON in the following format:
+All response will return JSON as the following example formats:
 
 ~~~ json
 {
-  "error": true,
-  "message": "error message here"
+  "code": 401,
+  "message": "Session expired"
+}
+~~~
+
+~~~ json
+{
+  "code": 404,
+  "message": "Return URL not found"
 }
 ~~~
