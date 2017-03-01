@@ -18,6 +18,9 @@ Nothing will work unless you include this API key
 
 NOTE: There is a space between "fido-auth" and "API_KEY", for example:
 {: .info }
+
 ~~~ json
+{
 "Authorization": "fido-auth 6d4fa5eb-083f-4e1e-a944-37fa7cef1123"
+}
 ~~~
