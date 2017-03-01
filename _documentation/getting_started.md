@@ -24,3 +24,4 @@ Something bad will happen if you do this.
 
 ## Introduction ##
 ![BAO Component](/images/bao-components.png)
+{:class="img-responsive"}
