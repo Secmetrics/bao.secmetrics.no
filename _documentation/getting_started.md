@@ -23,5 +23,6 @@ Something bad will happen if you do this.
 {: .error }
 
 ## Introduction ##
+
 ![BAO Component](/images/bao-components.png)
-{:class="img-responsive"}
+{: .img-responsive }

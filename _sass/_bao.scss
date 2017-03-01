@@ -1,0 +1,13 @@
+.img-responsive {
+  max-width:90%;
+  height:auto;
+  position: relative;
+  display:block;
+  margin:0 auto;
+}
+
+.img-responsive img{
+  max-width:100% !important;
+  height:auto;
+  display:block;
+}
