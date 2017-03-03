@@ -1,5 +1,5 @@
 ---
-title: /generateSignURL
+title: /signURL
 position: 1.2
 type: post
 description: Generate an U2F sign URL
@@ -36,5 +36,5 @@ The full version of a sign return URL to your application will contain four Quer
 ~~~ json
   https://example.com/u2flogin?username=xxx&returnUrl=xxx&challenge=xxx&signature=xxx
 ~~~
-But when doing the request, just add for example "https://example.com/u2flogin" to the "returnUrl" parameter, we will generate the full version for your application. Making sure that you application has such an URL address in order to verify the sign return URL by calling /u2f/v1/sdk/verifySignReturnURL
+But when doing the request, just add for example "https://example.com/u2flogin" to the "returnUrl" parameter, we will generate the full version for your application. Making sure that you application has such an URL address in order to verify the sign return URL by calling /u2f/v1/verify
 {: .info }

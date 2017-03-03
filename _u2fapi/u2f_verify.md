@@ -1,5 +1,5 @@
 ---
-title: /verifySignReturnURL
+title: /verify
 position: 1.3
 type: post
 description: Verify the U2F sign return URL
@@ -43,7 +43,7 @@ signature
 : The signature that signed with your API KEY and its SECRET.
 
 After the user successful authenticated with our FIDO server, is will jump back
-to the return URL that generated with /u2f/v1/sdk/generateSignURL.
+to the return URL that generated with /u2f/v1/signURL.
 Your application should verify the U2F sign return URL with this API that making
 sure the U2F authentication was genuine.
 This also prevent MitM and phishing attacks to your application.
