@@ -12,6 +12,7 @@ You need to be authenticated for all API requests. You can generate an API key
 in our [BAO console](https://console.baosec.com).
 
 Add the API key to all requests as an "Authorization" header.
+{: .success }
 
 Nothing will work unless you include this API key
 {: .error }

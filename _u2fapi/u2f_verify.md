@@ -51,7 +51,9 @@ POST /signURL
 
 Your application should verify the U2F sign return URL with this API that making
 sure the U2F authentication was genuine.
+
 This also prevent MitM and phishing attacks to your application.
+{: .success }
 
 Very important that your application calling this API in order to finish the whole authentication process.
 {: .info }

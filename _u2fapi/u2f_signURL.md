@@ -26,8 +26,8 @@ username
 returnUrl
 : The return URL after successful authenticated a U2F Security Key
 
-Generate an U2F sign URL with the given username and return URL and
-redirecting to it with your application.
+Generate an U2F sign URL with the given username and return URL and redirecting to it with your application.
+{: .success }
 
 The username must be unique in your application such as an email address.
 {: .info }
@@ -38,7 +38,7 @@ The full version of a sign return URL to your application will contain four Quer
   https://example.com/u2flogin?username=xxx&returnUrl=xxx&challenge=xxx&signature=xxx
 ```
 
-But when doing the request, just add for example "https://example.com/u2flogin" to the "returnUrl" parameter, we will generate the full version for your application. Making sure that you application has such an URL address in order to verify the sign return URL by calling the API:
+When doing the request, just add for example "https://example.com/u2flogin" to the "returnUrl" parameter, we will generate the full version for your application. Making sure that you application has such an URL address to consume those parameters in order to verify the sign return URL by calling the API:
 {: .info }
 
 ```
