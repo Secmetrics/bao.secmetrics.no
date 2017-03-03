@@ -1,6 +1,6 @@
 ---
 title: Errors
-position: 4
+position: 6
 ---
 
 | Code | Name                  | Description                          |

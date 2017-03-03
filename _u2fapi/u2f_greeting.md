@@ -6,8 +6,8 @@ description: Greeting with our API for testing your API KEY
 right_code: |
   ~~~ json
   {
-  "code": 200,
-  "message": "Hello BAO U2F"
+    "code": 200,
+    "message": "Hello BAO U2F"
   }
   ~~~
   {: title="Response" }

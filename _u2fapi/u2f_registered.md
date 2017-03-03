@@ -6,21 +6,21 @@ description: Check if the user has one or more U2F Security Keys registered.
 right_code: |
   ~~~ json
   {
-  "code": 200,
-  "message": "User <username@example.com> has registered key(s)"
+    "code": 200,
+    "message": "User <username@example.com> has registered key(s)"
   }
   ~~~
   {: title="Response" }
 
   ~~~ json
   {
-  "code": 400,
-  "message": "Unknown username <username>"
+    "code": 400,
+    "message": "Unknown username <username>"
   }
 
   {
-  "code": 404,
-  "message": "User <username@example.com> does not have any registered key"
+    "code": 404,
+    "message": "User <username@example.com> does not have any registered key"
   }
   ~~~
   {: title="Error" }

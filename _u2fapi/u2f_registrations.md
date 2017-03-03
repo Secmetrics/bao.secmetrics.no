@@ -6,8 +6,8 @@ description: Return a list of registered U2F Security Keys.
 right_code: |
   ~~~ json
   {
-  "code": 200,
-  "message": [
+    "code": 200,
+    "message": [
         {
           "username": "username@example.com",
           "version": "U2F_V2",
@@ -29,8 +29,8 @@ right_code: |
 
   ~~~ json
   {
-  "code": 400,
-  "message": "Unknown username <username>"
+    "code": 400,
+    "message": "Unknown username <username>"
   }
   ~~~
   {: title="Error" }

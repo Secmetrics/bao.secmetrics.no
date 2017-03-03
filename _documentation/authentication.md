@@ -2,9 +2,9 @@
 title: Authentication
 position: 4
 right_code: |
-  ~~~ json
-  "Authorization": "fido-auth API_KEY"
-  ~~~
+  ```
+    "Authorization": "fido-auth API_KEY"
+  ```
   {: title="Authentication" }
 ---
 
@@ -21,7 +21,7 @@ NOTE: There is a space between "fido-auth" and "API_KEY", for example:
 {: .info }
 
 ~~~ json
-{
-"Authorization": "fido-auth 6d4fa5eb-083f-4e1e-a944-37fa7cef1123"
-}
+  {
+    "Authorization": "fido-auth 6d4fa5eb-083f-4e1e-a944-37fa7cef1123"
+  }
 ~~~

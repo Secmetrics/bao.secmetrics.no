@@ -6,8 +6,8 @@ description: Verify the U2F sign return URL
 right_code: |
   ~~~ json
   {
-      "code": 200,
-      "message": "The URL was valid"
+    "code": 200,
+    "message": "The URL was valid"
   }
   ~~~
   {: title="Response" }

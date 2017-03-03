@@ -6,16 +6,16 @@ description: Deregister the U2F Security Key
 right_code: |
   ~~~ json
   {
-  "code": 200,
-  "message": "The U2F Security Key deregistered"
+    "code": 200,
+    "message": "The U2F Security Key deregistered"
   }
   ~~~
   {: title="Response" }
 
   ~~~ json
   {
-  "code": 404,
-  "message": "Unknown username or publicKey"
+    "code": 404,
+    "message": "Unknown username or publicKey"
   }
   ~~~
   {: title="Error" }
