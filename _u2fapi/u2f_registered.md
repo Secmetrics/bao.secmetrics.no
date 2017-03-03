@@ -29,8 +29,13 @@ right_code: |
 username
 : The username
 
-Check if the user has one or more Security Keys registered. If so, your application
-should jump to our FIDO server page URL by calling the API /u2f/v1/sdk/generateSignURL
+When login, check if the user has one or more Security Keys registered. If so, your application
+should jump to our FIDO server page URL by calling the API:
+
+```
+POST /signURL
+```
+
 In order to authenticate the user with the given username.
 
 The username must be unique in your application such as an email address.

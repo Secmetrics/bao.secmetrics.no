@@ -33,8 +33,14 @@ The username must be unique in your application such as an email address.
 {: .info }
 
 The full version of a sign return URL to your application will contain four Query Parameters, "username", "returnUrl", "challenge", and "signature". For example:
-~~~ json
+
+```
   https://example.com/u2flogin?username=xxx&returnUrl=xxx&challenge=xxx&signature=xxx
-~~~
-But when doing the request, just add for example "https://example.com/u2flogin" to the "returnUrl" parameter, we will generate the full version for your application. Making sure that you application has such an URL address in order to verify the sign return URL by calling /u2f/v1/verify
+```
+
+But when doing the request, just add for example "https://example.com/u2flogin" to the "returnUrl" parameter, we will generate the full version for your application. Making sure that you application has such an URL address in order to verify the sign return URL by calling the API:
 {: .info }
+
+```
+POST /verify
+```
