@@ -24,7 +24,7 @@ right_code: |
   }
 
   {
-    "code": 403,
+    "code": 404,
     "message": "Return URL not found"
   }
   ~~~
