@@ -30,13 +30,15 @@ username
 : The username
 
 When login, check if the user has one or more Security Keys registered. If so, your application
-should jump to our FIDO server page URL by calling the API:
+should jump to our BAO FIDO server page URL by calling the API, in order to authenticate
+the user with the given username:
 
 ```
 POST /signURL
 ```
 
-In order to authenticate the user with the given username.
+Otherwise, remain the user login with his username and password in your application.
+{: .success }
 
 The username must be unique in your application such as an email address.
 {: .info }

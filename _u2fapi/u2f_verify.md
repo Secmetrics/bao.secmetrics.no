@@ -37,12 +37,12 @@ returnUrl
 : The return URL after successful authenticated a U2F Security Key
 
 challenge
-: The random challenge that generated in our BAO server
+: The random challenge that generated in our BAO FIDO server
 
 signature
 : The signature that signed with your API KEY and its SECRET.
 
-After the user successful authenticated with our FIDO server, is will jump back
+After the user successful authenticated with our BAO FIDO server, it will jump back
 to the return URL that generated with the API:
 
 ```

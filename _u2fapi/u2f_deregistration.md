@@ -27,12 +27,10 @@ username
 publicKey
 : The public key of this U2F Security Key
 
-Deregister the U2F Security Key with the given username and public key. Those parameters
-are obtained within the list by calling the API:
+Deregister the U2F Security Key with the given username and public key.
 
-```
-POST /registrations
-```
+The user will no longer able to use this U2F Security Key to login again unless re-registering.
+{: .success }
 
 The username must be unique in your application such as an email address.
 {: .info }

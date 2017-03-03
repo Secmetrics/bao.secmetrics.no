@@ -26,7 +26,7 @@ username
 returnUrl
 : The return URL after successful authenticated a U2F Security Key
 
-Generate an U2F sign URL with the given username and return URL and redirecting to it with your application.
+Generate an U2F sign URL with the given username and return URL then redirecting to it with your application.
 {: .success }
 
 The username must be unique in your application such as an email address.

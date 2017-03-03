@@ -11,7 +11,7 @@ position: 4
 | 404  | Not Found             | We couldn’t find the resource        |
 | 500  | Internal Server Error | A server error occurred              |
 
-All error response will return JSON as the following example formats:
+All error responses will return JSON as the following example formats:
 
 ~~~ json
 {
@@ -19,10 +19,14 @@ All error response will return JSON as the following example formats:
   "message": "The URL was valid"
 }
 
+or
+
 {
   "code": 401,
   "message": "Session expired"
 }
+
+or
 
 {
   "code": 404,
