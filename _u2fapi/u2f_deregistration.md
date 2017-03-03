@@ -1,5 +1,5 @@
 ---
-title: u2f/v1/deregistration
+title: /deregistration
 position: 1.6
 type: post
 description: Deregister the U2F Security Key

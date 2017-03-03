@@ -1,5 +1,5 @@
 ---
-title: u2f/v1/registrations
+title: /registrations
 position: 1.5
 type: post
 description: Return a list of registered U2F Security Keys.

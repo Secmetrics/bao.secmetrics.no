@@ -1,5 +1,5 @@
 ---
-title: /u2f/v1/sdk/verifySignReturnURL
+title: /verifySignReturnURL
 position: 1.3
 type: post
 description: Verify the U2F sign return URL

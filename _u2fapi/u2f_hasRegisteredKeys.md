@@ -1,5 +1,5 @@
 ---
-title: u2f/v1/hasRegisteredKeys
+title: /hasRegisteredKeys
 position: 1.4
 type: post
 description: Check if the user has one or more U2F Security Keys registered.

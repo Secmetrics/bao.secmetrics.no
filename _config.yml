@@ -12,9 +12,12 @@ collections:
   documentation:
     title: Documentation
     position: 1
-  api:
-    title: APIs
+  u2fapi:
+    title: U2F APIs
     position: 2
+  uafapi:
+    title: UAF APIs
+    position: 3
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag

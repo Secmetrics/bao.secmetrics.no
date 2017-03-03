@@ -1,5 +1,5 @@
 ---
-title: /u2f/v1/greeting
+title: /greeting
 position: 1.0
 type: get
 description: Greeting with our API for testing your API KEY

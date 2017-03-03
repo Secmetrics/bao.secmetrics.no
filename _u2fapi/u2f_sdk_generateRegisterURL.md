@@ -1,5 +1,5 @@
 ---
-title: /u2f/v1/sdk/generateRegisterURL
+title: /generateRegisterURL
 position: 1.1
 type: post
 description: Generate an U2F register URL

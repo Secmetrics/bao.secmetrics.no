@@ -1,5 +1,5 @@
 ---
-title: /u2f/v1/sdk/generateSignURL
+title: /generateSignURL
 position: 1.2
 type: post
 description: Generate an U2F sign URL
