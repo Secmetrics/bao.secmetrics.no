@@ -13,10 +13,10 @@ collections:
     title: Documentation
     position: 1
   u2fapi:
-    title: U2F APIs
+    title: U2F API
     position: 2
   uafapi:
-    title: UAF APIs
+    title: UAF API
     position: 3
 gems:
   - jekyll-sitemap
