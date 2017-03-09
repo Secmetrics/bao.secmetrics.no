@@ -7,7 +7,7 @@ right_code: |
   ~~~ json
   {
     "code": 200,
-    "message": "https://api.baosec.com/fido/u2f/v1/startAuthentication?username=example-user&returnUrl=https://example.com/u2fLogin&challenge=d39ea54d7a127294033f6d9ff43e5f3d1f6ded3194bc7cda70acb04d5601872c&signature=fb5dbff9c91d0c7f20b661e076f2a91fdf30512694ffbfef7c5fd056ad569739"
+    "message": "https://api.baosec.com/fido/u2f/v1/startRegistration?username=example-user&returnUrl=https://example.com/profile&challenge=d39ea54d7a127294033f6d9ff43e5f3d1f6ded3194bc7cda70acb04d5601872c&signature=fb5dbff9c91d0c7f20b661e076f2a91fdf30512694ffbfef7c5fd056ad569739"
   }
   ~~~
   {: title="Response" }

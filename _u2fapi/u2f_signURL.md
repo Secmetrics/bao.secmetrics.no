@@ -24,7 +24,7 @@ username
 : The username that tries to login to your application
 
 returnUrl
-: The return URL after successful authenticated a U2F Security Key
+: The return URL after successful authenticated an U2F Security Key
 
 Generate an U2F sign URL with the given username and return URL then redirecting to it with your application.
 {: .success }
