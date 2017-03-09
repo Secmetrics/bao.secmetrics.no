@@ -15,7 +15,7 @@ change the existing infrastructure like a database, just call our API and you ar
 In order to use BAO, you need to create an application in our Web [Console](https://console.baosec.com),
 then follow the API instruction to complete the integration.
 
-###### The following example logic flow shows an U2F Registration process by using BAO: ######
+##### The following example logic flow shows an U2F Registration process by using BAO: #####
 
   1. Call /registerURL API to get a registration URL
   2. Redirect you web application to this URL
@@ -24,7 +24,7 @@ then follow the API instruction to complete the integration.
   5. The user now registered a new U2F Security Key
 {: .info }
 
-###### The following example logic flow shows an U2F Authentication process by using BAO: ######
+##### The following example logic flow shows an U2F Authentication process by using BAO: #####
 
   1. Call /signURL API to get an authentication URL
   2. Redirect you web application to this URL
