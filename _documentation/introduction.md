@@ -22,7 +22,6 @@ then follow the API instruction to complete the integration.
 3. User plug in an U2F Security Key like a baoKey, and touch it for the confirmation
 4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
 5. The user now registered a new U2F Security Key
-{: .info }
 
 ##### The following example logic flow shows an U2F Authentication process by using BAO: #####
 
@@ -32,7 +31,6 @@ then follow the API instruction to complete the integration.
 4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
 5. Call /verify API to verify the "returnUrl" with parameters that redirected to your web application which is important to prevent MitM and phishing attacks
 6. Let your user login if succeed, otherwise back to the login page.
-{: .info }
 
 #### Implementation Considerations ####
 
