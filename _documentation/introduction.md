@@ -45,4 +45,5 @@ https://yourwebapplication/u2flogin?username=xxx&returnUrl=xxx&challenge=xxx&sig
 ```
 4. It is important that you web application is fully covered by HTTPS, otherwise you web application is still vulnerable for MitM and phishing attacks.
 5. DO NOT disclose your API KEY and its SECRET in any cases, and DO NOT use the API KEY to call our API in front-end JavaScript, make all the API calls in back-end.
-6. If you have any questions, please do not hesitate to send us an [email](mailto:beta@baosec.com), we will get back to you in 24 hours.
+6. Since FIDO standards are new to the web, only few browsers supported including Google Chrome version 38 or later, or Opera version 40 or later. Firefox is also supported however the add-on has to be installed [U2F Support Add-on](https://addons.mozilla.org/en-GB/firefox/addon/u2f-support-add-on/). Make sure that your users knowing this.
+7. If you have any questions, please do not hesitate to send us an [email](mailto:beta@baosec.com), we will get back to you in 24 hours.
