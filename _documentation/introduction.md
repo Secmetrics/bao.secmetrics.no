@@ -12,7 +12,7 @@ change the existing infrastructure like a database, just call our API and you ar
 ![BAO Component](/images/bao-components.png)
 {: .img-responsive }
 
-In order to use BAO, you need to create an application on our Web [Console](https://console.baosec.com),
+In order to use BAO, you need to create an application in our Web [Console](https://console.baosec.com),
 then follow the API instruction to complete the integration.
 
 The following example logic flow shows an U2F Registration process by using BAO:
@@ -22,6 +22,7 @@ The following example logic flow shows an U2F Registration process by using BAO:
 3. User plug in an U2F Security Key like a baoKey, and touch it for the confirmation
 4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
 5. The user now registered a new U2F Security Key
+{: .info }
 
 The following example logic flow shows an U2F Authentication process by using BAO:
 
@@ -31,3 +32,18 @@ The following example logic flow shows an U2F Authentication process by using BA
 4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
 5. Call /verify API to verify the "returnUrl" with parameters that redirected to your web application which is important to prevent MitM and phishing attacks
 6. Let your user login if succeed, otherwise back to the login page.
+{: .info }
+
+### Implementation Consideration ###
+
+1. You can first try our [Console](https://console.baosec.com) to familiar with the process of our BAO FIDO authentication services by adding an U2F Security Key, like a baoKey or a Yubikey. Our BAO FIDO Server support all U2F Security Keys on the market.
+2. During the Registration, since your user has already logged in you web application, the "returnUrl" you can just put something like:
+```
+"https://yourwebapplication/profile"
+```
+3. While it's little bit complicate for the Authentication process, you have to make sure that the "returnUrl" that redirected to your web application was genuine. In this case, you need to have an URL path to consume those parameters like following, Please also refer to the /signURL API.
+```
+  https://yourwebapplication/u2flogin?username=xxx&returnUrl=xxx&challenge=xxx&signature=xxx
+```
+4. It is important that you web application is fully covered by HTTPS, otherwise you web application is still vulnerable for MitM and phishing attacks.
+5. If you have any questions, please do not hesitate to send us an [email](mailto:beta@baosec.com), we will get back to you in 24 hours.
