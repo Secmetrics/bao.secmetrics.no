@@ -17,21 +17,21 @@ then follow the API instruction to complete the integration.
 
 ##### The following example logic flow shows an U2F Registration process by using BAO: #####
 
-  1. Call /registerURL API to get a registration URL
-  2. Redirect you web application to this URL
-  3. User plug in an U2F Security Key like a baoKey, and touch it for the confirmation
-  4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
-  5. The user now registered a new U2F Security Key
+1. Call /registerURL API to get a registration URL
+2. Redirect you web application to this URL
+3. User plug in an U2F Security Key like a baoKey, and touch it for the confirmation
+4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
+5. The user now registered a new U2F Security Key
 {: .info }
 
 ##### The following example logic flow shows an U2F Authentication process by using BAO: #####
 
-  1. Call /signURL API to get an authentication URL
-  2. Redirect you web application to this URL
-  3. User plug in an U2F Security Key like a baoKey, and touch it for the confirmation
-  4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
-  5. Call /verify API to verify the "returnUrl" with parameters that redirected to your web application which is important to prevent MitM and phishing attacks
-  6. Let your user login if succeed, otherwise back to the login page.
+1. Call /signURL API to get an authentication URL
+2. Redirect you web application to this URL
+3. User plug in an U2F Security Key like a baoKey, and touch it for the confirmation
+4. Our BAO FIDO server will verify the U2F Security Key, and redirect to the "returnUrl" you provided if succeed, otherwise back to the last page.
+5. Call /verify API to verify the "returnUrl" with parameters that redirected to your web application which is important to prevent MitM and phishing attacks
+6. Let your user login if succeed, otherwise back to the login page.
 {: .info }
 
 #### Implementation Considerations ####
