@@ -15,8 +15,8 @@ right_code: |
             "username": "bao",
             "status": "SUCCESS"
         }
-    ]
-}
+      ]
+  }
   ~~~
   {: title="Response" }
 

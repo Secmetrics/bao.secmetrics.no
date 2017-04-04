@@ -84,8 +84,8 @@ right_code: |
                 "disallowed": null
             }
         }
-    ]
-}
+      ]
+  }
   ~~~
   {: title="Response" }
 
