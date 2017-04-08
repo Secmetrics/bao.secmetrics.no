@@ -109,5 +109,5 @@ Return an [UAF authentication requests](https://fidoalliance.org/specs/fido-uaf-
 Each UAF authentication request contains the UAF version that server supports.
 {: .success }
 
-No parameters
+A [Transaction](https://fidoalliance.org/specs/fido-uaf-v1.1-id-20170202/fido-uaf-protocol-v1.1-id-20170202.html#transaction-dictionary) contains a base64-url encoded transaction content according to the contentType to be shown to the user.
 {: .info }
