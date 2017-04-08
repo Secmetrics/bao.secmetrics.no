@@ -22,7 +22,7 @@ right_code: |
 ---
 
 deregRequest
-: The array of [UAF Deregistration Request](https://fidoalliance.org/specs/fido-uaf-v1.1-id-20170202/fido-uaf-protocol-v1.1-id-20170202.html#idl-def-DeregistrationRequest)
+: The array of [UAF Deregistration Request](https://fidoalliance.org/specs/fido-uaf-v1.1-id-20170202/fido-uaf-protocol-v1.1-id-20170202.html#deregistration-request-message)
 
 De-register UAF authentication(s) on the server and device.
 
