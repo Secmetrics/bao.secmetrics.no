@@ -98,6 +98,11 @@ right_code: |
   {: title="Error" }
 ---
 
+trxContent
+: OPTIONAL, [Transaction Content](https://fidoalliance.org/specs/fido-uaf-v1.1-id-20170202/fido-uaf-protocol-v1.1-id-20170202.html#widl-Transaction-content), must be not null or empty if present, must less than 200 characters.
+
+trxType
+: OPTIONAL, [Transaction Type](https://fidoalliance.org/specs/fido-uaf-v1.1-id-20170202/fido-uaf-protocol-v1.1-id-20170202.html#widl-Transaction-contentType) must be 'text/plain' if present.
 
 Return an [UAF authentication requests](https://fidoalliance.org/specs/fido-uaf-v1.1-id-20170202/fido-uaf-protocol-v1.1-id-20170202.html#authenticationrequest-dictionary) array.
 
